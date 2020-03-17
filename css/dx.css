@@ -12,12 +12,7 @@ header{
     padding: 2rem;
     overflow: auto;
 }
-#imagen{
-    background-image: url(" ../img/juegos-olimpicos.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: auto;
-}
+
 h1{
     font-size: 2.5rem;
     font-weight: 600;
@@ -28,17 +23,27 @@ h1{
     background-size: contain;
     padding-left: 60px;
 }
-h2{
+
+h3{
     padding: 2rem;
     font-size: 2.5rem;
     font-weight: 600;
-    color: #FFF;
-    background-color: #232323;
-    margin-top: auto;
+    color: #232323;
+      margin-top: auto;
 }
-#noticia{
+figure img {
+    display: block;
     width: 100%;
-    margin-top: auto;
+}
+figure figcaption{
+    background-color: #232323;
+}
+figure h2{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 2rem;
+    background-color: #232323
 }
 nav{
     float: right;
